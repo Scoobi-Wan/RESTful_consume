@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 /*
  * Author: Paul Rich
  * 
- * Quote class used to hold both the quote and the value associated with it
+ * Quote class used to hold both the quote (held in value) and the type of quote it is
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Quote {
