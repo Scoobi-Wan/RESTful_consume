@@ -2,6 +2,11 @@ package com.example.consumingrest;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+/*
+ * Author: Paul Rich
+ * 
+ * Quote class used to hold both the quote and the value associated with it
+ */
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Quote {
 
