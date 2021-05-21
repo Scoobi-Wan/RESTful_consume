@@ -9,6 +9,11 @@ import org.springframework.boot.web.client.RestTemplateBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
+/*
+ * Author: Paul Rich
+ * 
+ * Purpose: To test and practice my intro knowledge of consuming RESTful APIs
+ */
 @SpringBootApplication
 public class ConsumingRestApplication {
 	
